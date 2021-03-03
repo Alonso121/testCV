@@ -35,7 +35,7 @@ header {
   height: 800px;
   min-height: 500px;
   width: 100%;
-  background: #161415 url(../images/header-background.jpg) no-repeat top center;
+  /* background: #161415 url(../images/header-background.jpg) no-repeat top center; */
   background-size: cover !important;
   -webkit-background-size: cover !important;
   text-align: center;
@@ -363,93 +363,139 @@ ul#nav li.current a {
   line-height: 42px;
   border-radius: 3px 0 0 3px;
 }
-/*
+
 .git {
-  	-moz-animation: git 2s ease;
-  	-webkit-animation: git 2s ease;
+  animation: 2s ease;
+  -moz-animation: git 2s ease;
+  -webkit-animation: git 2s ease;
 }
-.illustrator {
-  	-moz-animation: illustrator 2s ease;
-  	-webkit-animation: illustrator 2s ease;
-}
+
 .reactjs {
-  	-moz-animation: reactjs 2s ease;
-  	-webkit-animation: reactjs 2s ease;
+  animation: 2s ease;
+  -moz-animation: reactjs 2s ease;
+  -webkit-animation: reactjs 2s ease;
 }
 .css {
-  	-moz-animation: css 2s ease;
-  	-webkit-animation: css 2s ease;
+  animation: 2s ease;
+  -moz-animation: css 2s ease;
+  -webkit-animation: css 2s ease;
 }
 .html5 {
-  	-moz-animation: html5 2s ease;
-  	-webkit-animation: html5 2s ease;
+  animation: 2s ease;
+  -moz-animation: html5 2s ease;
+  -webkit-animation: html5 2s ease;
 }
-.vuejs {
-  	-moz-animation: vuejs 2s ease;
-  	-webkit-animation: vuejs 2s ease;
+.mysql {
+  animation: 2s ease;
+  -moz-animation: mysql 2s ease;
+  -webkit-animation: mysql 2s ease;
 }
 .mongodb {
-  	-moz-animation: mongodb 2s ease;
-  	-webkit-animation: mongodb 2s ease;
+  animation: 2s ease;
+  -moz-animation: mongodb 2s ease;
+  -webkit-animation: mongodb 2s ease;
 }
 
 @-moz-keyframes git {
-  0%   { width: 0px;  }
-  100% { width: 60%;  }
+  0% {
+    width: 0px;
+  }
+  100% {
+    width: 60%;
+  }
 }
-@-moz-keyframes illustrator {
-  0%   { width: 0px;  }
-  100% { width: 55%;  }
-}
-@-moz-keyframes reactjs {
-  0%   { width: 0px;  }
-  100% { width: 50%;  }
-}
-@-moz-keyframes css {
-  0%   { width: 0px;  }
-  100% { width: 90%;  }
-}
-@-moz-keyframes html5 {
-  0%   { width: 0px;  }
-  100% { width: 80%;  }
-}
-@-moz-keyframes vuejs {
-  0%   { width: 0px;  }
-  100% { width: 50%;  }
-}
-@-moz-keyframes mongodb {
-  0%   { width: 0px;  }
-  100% { width: 80%;  }
+@keyframes git {
+  0% {
+    width: 0px;
+  }
+  100% {
+    width: 60%;
+  }
 }
 
-@-webkit-keyframes photoshop {
-  0%   { width: 0px;  }
-  100% { width: 60%;  }
+@-moz-keyframes reactjs {
+  0% {
+    width: 0px;
+  }
+  100% {
+    width: 60%;
+  }
 }
-@-webkit-keyframes illustrator {
-  0%   { width: 0px;  }
-  100% { width: 55%;  }
+@keyframes reactjs {
+  0% {
+    width: 0px;
+  }
+  100% {
+    width: 60%;
+  }
 }
-@-webkit-keyframes reactjs {
-  0%   { width: 0px;  }
-  100% { width: 50%;  }
+@-moz-keyframes css {
+  0% {
+    width: 0px;
+  }
+  100% {
+    width: 90%;
+  }
 }
-@-webkit-keyframes css {
-  0%   { width: 0px;  }
-  100% { width: 90%;  }
+@keyframes css {
+  0% {
+    width: 0px;
+  }
+  100% {
+    width: 90%;
+  }
 }
-@-webkit-keyframes html5 {
-  0%   { width: 0px;  }
-  100% { width: 80%;  }
+
+@-moz-keyframes html5 {
+  0% {
+    width: 0px;
+  }
+  100% {
+    width: 80%;
+  }
 }
-@-webkit-keyframes vuejs {
-  0%   { width: 0px;  }
-  100% { width: 50%;  }
+@keyframes html5 {
+  0% {
+    width: 0px;
+  }
+  100% {
+    width: 80%;
+  }
 }
-@-webkit-keyframes mongodb {
-  0%   { width: 0px;  }
-  100% { width: 80%;  }
-}  */
+@-moz-keyframes mysql {
+  0% {
+    width: 0px;
+  }
+  100% {
+    width: 50%;
+  }
+}
+
+@keyframes mysql {
+  0% {
+    width: 0px;
+  }
+  100% {
+    width: 50%;
+  }
+}
+@-moz-keyframes mongodb {
+  0% {
+    width: 0px;
+  }
+  100% {
+    width: 60%;
+  }
+}
+
+@keyframes mongodb {
+  0% {
+    width: 0px;
+  }
+  100% {
+    width: 60%;
+  }
+}
 
 /* ------------------------------------------------------------------ */
 /* e. Portfolio Section
@@ -747,7 +793,7 @@ call-to-action .button {
   padding: 0;
   font-size: 24px;
   line-height: 48px;
-  color: #fff;
+  color: wheat;
 }
 #testimonials blockquote cite {
   display: block;
@@ -773,6 +819,10 @@ call-to-action .button {
 .flexslider a:focus {
   outline: none;
 }
+.slides {
+  background-color: #2b2b2b71;
+}
+
 .slides,
 .flex-control-nav,
 .flex-direction-nav {
@@ -788,12 +838,12 @@ call-to-action .button {
 /* Necessary Styles */
 .flexslider {
   position: relative;
-  zoom: 1;
+  transform: scale(1);
   margin: 0;
   padding: 0;
 }
 .flexslider .slides {
-  zoom: 1;
+  transform: scale(1);
 }
 .flexslider .slides > li {
   position: relative;
@@ -803,10 +853,11 @@ call-to-action .button {
 .flexslider .slides > li {
   display: none;
   -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
 }
 /* Suggested container for slide animation setups. Can replace this with your own */
 .flex-container {
-  zoom: 1;
+  transform: scale(1);
   position: relative;
 }
 
@@ -829,7 +880,7 @@ call-to-action .button {
 
 /* Slider Styles */
 .slides {
-  zoom: 1;
+  transform: scale(1);
 }
 .slides > li {
   /*margin-right: 5px; */
@@ -846,7 +897,7 @@ call-to-action .button {
 .flex-control-nav li {
   margin: 0 6px;
   display: inline-block;
-  zoom: 1;
+  transform: scale(1);
   *display: inline;
 }
 .flex-control-paging li a {
@@ -923,8 +974,14 @@ call-to-action .button {
   margin-bottom: 6px;
 }
 #contact p.lead {
-  font: 18px/36px "opensans-light", sans-serif;
+  font: 20px "opensans-light", sans-serif;
+  color: wheat;
   padding-right: 3%;
+}
+
+#contact p.address,
+#contact h4 {
+  color: rgba(245, 222, 179, 0.87);
 }
 #contact .header-col {
   padding-top: 6px;
@@ -939,7 +996,7 @@ call-to-action .button {
   margin: 12px 0;
   color: #ebeeee;
   display: inline-block;
-  float: left;
+  /* float: left; */
   width: 26%;
 }
 #contact input,
