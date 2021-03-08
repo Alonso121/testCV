@@ -101,6 +101,12 @@
   "portfolio": {
     "projects": [
       {
+        "title": "Simple Task",
+        "category": "Simple To Do app. Full stack MERN.",
+        "image": "Simple-Task-App.png",
+        "url": "https://the-simple-task.herokuapp.com/"
+      },
+      {
         "title": "Jammming",
         "category": "My first React App provided by Codecademy",
         "image": "jamming.png",
